@@ -65,7 +65,7 @@ Through this project, we gained hands-on experience with deep learning models, p
 ## Requirements
 To replicate this project, the following libraries and packages are required:
 - Python 3.x
-- TensorFlow / PyTorch (depending on the model implementation)
+- PyTorch
 - scikit-learn
 - Pandas
 - NumPy
