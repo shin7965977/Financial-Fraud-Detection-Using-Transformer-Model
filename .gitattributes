@@ -1,2 +1,8 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.pbix filter=lfs diff=lfs merge=lfs -text
+
+# Exclude Jupyter Notebook from GitHub language statistics
+*.ipynb -linguist-detectable
+
+# Include SQL files in GitHub language statistics
+*.sql linguist-detectable
